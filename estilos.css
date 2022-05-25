@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    background-image: linear-gradient(blue, yellow);
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+}
+
+#ani {
+    height: 50px;
+    transition: 2s;
+}
+
+#ani:hover {
+    height: 50px;
+    background-color: cyan;
+}
+
+#ima {
+    transform:rotate(10deg);
+    padding: 50px;
+    margin: 20px;
+}
+
+#ima2 {
+    transform: skew(25deg);
+    padding: 50px;
+    margin: 20px;
+}
